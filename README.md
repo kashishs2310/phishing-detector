@@ -54,7 +54,7 @@ certificate checks and WHOIS domain age lookups is a planned next step.
 
 \`\`\`
 python -m venv venv
-venv\\Scripts\\activate      # Windows
+venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 python detector.py
 \`\`\`
