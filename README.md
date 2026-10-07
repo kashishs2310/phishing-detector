@@ -51,17 +51,15 @@ cases (e.g. shortened URLs, IP-based URLs). Extending this with live SSL
 certificate checks and WHOIS domain age lookups is a planned next step.
 
 ## How to Run
-
-\`\`\`
+```
 python -m venv venv
-venv\\Scripts\\activate      # Windows
+venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 python detector.py
-\`\`\`
+```
 
 ## Project Structure
-
-\`\`\`
+```
 phishing-detector/
 ├── data/
 │   └── phishing.csv
@@ -69,5 +67,6 @@ phishing-detector/
 ├── detector.py            # CLI tool for real-time URL checking
 ├── phishing_model.pkl     # trained model
 ├── requirements.txt
-└── README.md
-\`\`\`
+└── README.md 
+
+
