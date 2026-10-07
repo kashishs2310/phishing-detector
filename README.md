@@ -52,16 +52,16 @@ certificate checks and WHOIS domain age lookups is a planned next step.
 
 ## How to Run
 
-\`\`\`
+```
 python -m venv venv
 venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 python detector.py
-\`\`\`
+```
 
 ## Project Structure
 
-\`\`\`
+```
 phishing-detector/
 ├── data/
 │   └── phishing.csv
@@ -70,4 +70,4 @@ phishing-detector/
 ├── phishing_model.pkl     # trained model
 ├── requirements.txt
 └── README.md
-\`\`\`
+```
